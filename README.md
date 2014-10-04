@@ -8,6 +8,10 @@
 npm install -g nitrus-cli
 ```
 
+## Credits
+
+This command line application was inspired by [grunt-cli](https://github.com/gruntjs/grunt-cli)
+
 ## License
 
 The MIT License (MIT)
