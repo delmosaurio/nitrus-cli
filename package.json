@@ -1,6 +1,6 @@
 {
   "name": "nitrus-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The nitrus command line interface.",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,9 @@
   "keywords": [
     "nitrus"
   ],
+  "bin": {
+    "nitrus": "bin/nitrus"
+  },
   "author": "Delmo <delmosaurio@gmail.com>",
   "license": [
     {
@@ -29,5 +32,9 @@
     "findup-sync": "^0.1.3",
     "nopt": "^3.0.1",
     "resolve": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
   }
 }
